@@ -555,14 +555,14 @@
             modalBio.textContent = member.bio;
             modal.querySelector('.modal-photo img').src = member.photo;
             modal.querySelector('.modal-photo img').alt = member.name;
-            modal.style.display = 'block';
+            modal.style.display = 'flex';
             document.body.style.overflow = 'hidden'; // Prevent background scrolling
         });
     });
 
     // Close modal handlers
     closeModal.addEventListener('click', () => {
-        modal.style.display = 'none';
+        modal.style.display = 'flex';
         document.body.style.overflow = 'auto'; // Restore scrolling
     });
 
