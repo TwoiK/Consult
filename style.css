@@ -41,7 +41,7 @@ body {
     justify-content: space-between;
     align-items: center;
     
-    background: linear-gradient(to right, #1cb5e0, #2ecc71);
+    background: #364F6B;
     
     transition: all 0.3s ease;
 }
